@@ -1,0 +1,818 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    background-color:#7fb401;
+    display: flex;
+    padding-left:60px ;
+}
+.menubars, .menubars1 {
+    font-size: 27px;
+    color: white;
+    /* display: none; */
+    visibility: hidden;
+    /* visibility: visible; */
+
+}
+
+
+nav>ul{
+    display: flex;
+}
+nav>ul>li{
+    padding: 25px 10px 30px 10px;
+    margin-left: 20px;
+    position: relative;
+}
+.fa-chevron-down{
+    padding-left: 5px;
+    color: white;
+    font-size: 12px;
+}
+nav li{
+    list-style: none;
+}
+nav ul li>a{
+   color: white;
+   font-weight: 600;
+}
+nav a{
+    text-decoration: none;
+}
+.home{
+    background-color: #75a501;
+}
+.iconnavmanu{
+    margin: auto;
+    padding-left: 60px;
+}
+.facebookmenu,.twittermenu,.googlemenu,.pinterestmenu{
+    color: white;
+    padding: 12px;
+    border-radius: 100%;
+    border: 1px solid white;
+    transition: .2s;
+    font-size: 13px;
+    margin-left: 15px;
+}
+.facebookmenu{
+    padding: 13px 15px;
+}
+.pinterestmenu{
+    padding: 12px 14px;
+}
+.iconnavmanu i:hover{
+    background-color: #021524;
+    border: 1px solid #021524;
+}
+.storeinul li,.newsinul li,.galleryinul li,.pageinul li{
+    padding: 15px 100px 15px 15px;
+    transition: .5s;
+}
+.storeinul a,.newsinul a,.galleryinul a,.pageinul a{
+    color: black;
+}
+.storeinul,.newsinul,.galleryinul,.pageinul{
+    background-color:white;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.13);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+}
+.store:hover .storeinul,.news:hover .newsinul,.gallery:hover .galleryinul,.page:hover .pageinul{
+    display: block;
+}
+.storeinul li:hover,.newsinul li:hover,.galleryinul li:hover,.pageinul li:hover{
+    background-color:#7fb401;
+    padding: 15px 90px 15px 25px;
+    color: white; 
+}
+.storeinul li:hover a,.newsinul li:hover a,.galleryinul li:hover a,.pageinul li:hover a{
+    color: white; 
+}
+.one{
+    height: 650px;
+    background-image: url(../oakville-img/slide-1.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+}
+.fristimgintext{
+    padding: 30px 90px;
+    background-color: rgba(0,0,0,0.5);
+    margin: auto;
+    border: 2px solid rgb(185, 185, 185);
+    text-align: center;
+
+}
+.Organic{
+    font-size: 80px;
+    color: white;
+    margin-top: 10px;
+}
+.Vegetables,.providing{
+    color: white;
+    font-size: 17px;
+    margin-top: 25px;
+}
+.two{
+    padding: 90px 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.towinimg1{
+    height: 325px;
+    width: 572px;
+    background-image: url(../oakville-img/intro_image1.png);
+    background-size: 100% 100%;
+}
+.towinimg2{
+    height: 325px;
+    width: 572px;
+    background-image: url(../oakville-img/intro_image2.png); 
+    background-size: 100% 100%;  
+}
+.three{
+    padding: 0px 90px 100px 90px;
+}
+.threeinupdiv{
+   text-align: center;
+}
+.sepimg{
+    margin: 15px 0 30px 0;
+
+}
+
+.FEATURED{
+    font-size: 30px;
+}
+.acth{
+    display: flex;
+    justify-content: center;  
+}
+.fourbutton{
+    display: inline;
+}
+.acth li{
+    list-style: none;
+    padding: 8px 10px;
+    background-color:rgb(226, 229, 233);
+    margin: 10px;
+}
+.acth li:hover{
+    background-color: #7fb401;
+}
+.ALLPRODUCTS{
+    background-color: #7fb401 !important; 
+}
+.acth a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+.main4img1,.main4img2{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.pro1{
+    padding: 15px;
+    border: 2px solid #f7f7f7;
+    transition: .1s;
+    position: relative;
+}
+.upimg{
+    height:250px;
+    width: 240px;
+
+}
+.down{
+    background-color: rgba(238, 237, 237, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+.WooLogo{
+    color: #858484;
+    font-size: 18px;
+}
+.imginicon4{
+    font-size: 15px;
+    color: #7fb401;
+    padding: 10px 0 15px 0;
+}
+.spn1{
+    font-weight: 600;
+    text-decoration: line-through;
+}
+.spn2{
+    font-weight: 600;
+    text-decoration:underline;
+}
+.after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+    display: none;
+    background-color: rgba(253, 251, 251,0.6);
+}
+.pro1:hover .after {
+    display: block;
+}
+.hovericoninimg{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    font-size: 20px;
+    z-index: 1;
+    opacity: 0;
+    transition: .3s;
+}
+.hovericoninimg i{
+    border: 2px solid #7fb401;
+    margin-left: 15px;
+    border-radius: 50%;
+    color: #7fb401;
+    padding: 10px;
+}
+.downgreenbg{
+    background-color: #7fb401;
+    height: 100%;
+    width: 100%;
+    padding: 0 15px;
+    text-align: left;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    opacity: 0;
+    z-index: 1;
+    transition: .4s;
+}
+.Contains{
+    text-decoration: underline;
+    color: white;
+    padding: 15px 0;
+    font-size: 18px;
+}
+.organicraisins{
+    line-height: 30px;
+    color: white;
+}
+.pro1:hover .hovericoninimg{
+    opacity: 1;
+    top: 100px;
+    left: 40px;
+}
+.pro1:hover .downgreenbg{
+    opacity: 1;
+    top: 0px;
+    left: 0px;
+}
+.four{
+    background-image: url(oakville-img/1-1.jpg);
+}
+.fourintext{
+    text-align: center;
+    padding: 90px 150px;
+}
+.CHOOSE{
+    font-size: 30px;
+}
+.oaksep{
+    padding: 20px 0;
+}
+.THERE{
+    line-height: 25px;
+    color: #858484;
+}
+.five5{
+    padding: 0 90px;
+    position: relative;
+    margin-top: -100px; 
+}
+.joint1,.joint2{
+    display: flex;
+    justify-content: space-between;
+}
+.Products{
+    display: flex;
+    align-items: center;
+}
+.productsmain{
+    border: 1px solid #f7f7f7;
+    padding: 30px 40px;
+    margin-top: 40px;
+    background-color: white;
+    transition: .1s;
+}
+.appleicon,.iconnumbar3,.iconnumbar4{
+    font-size: 36px;
+    color: #7fb401;
+    padding-right: 20px;
+}
+.iconnumbar3{
+    color: #7fb401; 
+    padding-right: 12px;
+}
+.iconnumbar4{
+    color: #7fb401; 
+    padding-right: 15px; 
+}
+.Organic100{
+    font-size: 20px;
+}
+.Duis{
+    line-height: 30px;
+    padding-top: 15px;
+}
+.productsmain:hover {
+    background-color:#7fb401 ;
+    color: #f7f7f7;
+}
+.productsmain:hover i {
+    color: white;
+} 
+.productsmain:hover .flexicontext.Duis{
+    color: white !important ;
+}
+
+.six{
+    padding: 80px 90px;
+}
+.sixsectionintext{
+    text-align: center;
+}
+.sixinmain1,.sixinmain2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.proimgone{
+    height: 240px;
+    width: 370px;
+    position: relative;
+}
+.hovereffectgreen{
+    height:100% ;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:rgba(93, 156, 11, 0.8);
+    visibility: hidden;
+}
+.hovereffectgreen .searchlogo{
+    position: absolute;
+    top: 80px;
+    left: 172px;
+    color: white;
+    font-size: 25px;
+    opacity: 0;
+    transition: .5s;
+}
+.shoppyicon{
+    color:#7fb401;
+    font-size: 25px;
+    position: absolute;
+    top: 190px;
+    left: 300px;
+    background-color: white;
+    padding: 10px;
+    opacity: 0;
+    transition: .5s;
+}
+.hovereffectgreen h4{
+    color: white;
+}
+.textpositionset{
+    line-height: 30px;
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    opacity: 0;
+    transition: .4s;
+}
+.proimgone:hover .hovereffectgreen{
+    visibility: visible;
+}
+.proimgone:hover .searchlogo{
+    opacity: 1;
+    top: 100px;
+}
+.proimgone:hover .textpositionset{
+    opacity: 1;
+    top: 160px;
+}
+.proimgone:hover .shoppyicon{
+    opacity: 1;
+    top: 170px;
+}
+.seven{
+    background-color: #f7f7f7;
+    padding: 90px;
+}
+.threeimgortext{
+    display: flex;
+    justify-content: space-between;
+}
+.OURLATEST1{
+    width: 370px;
+    overflow: hidden;
+}
+.positionimggreen{
+    position: relative;
+}
+.greeneffactscales{
+    background-color:rgba(93, 156, 11, 0.8);
+    height: 220px;
+    width: 370px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center     ;
+    place-items: center;
+    opacity: 0;
+    transition: .4s;
+    transform: scale(0);
+}
+.greeneffactscales i{
+    color: white;
+    font-size: 35px;
+}
+.OURLATEST1:hover .greeneffactscales{
+  opacity: 1;
+  transform: scale(1);
+}
+.threeicondiv {
+    background-color: #f7f7f7;
+    border-bottom:2px solid #7fb401;
+    padding: 15px 0;
+}
+.threeicondiv ul{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5px;
+}
+.threeicondiv li{
+    color: #c5c4c4;
+}
+.threeicondiv a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #858484;
+    text-decoration: none;
+}
+.threeicondiv i{
+    color: #7fb401;
+    margin-right: 5px;
+}
+.imgintextone{
+    line-height: 30px;
+    padding: 25px 20px;
+    background-color: white;
+}
+.imgintextone p,h4{
+    margin-top: 30px;
+}
+.imgintextone p{
+    color:#858484;
+}
+.READ a{
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    transition: .5s;
+}
+.READ:hover a{
+    color: #7fb401;
+}
+
+.eight{
+    padding: 90px 90px 190px 90px;
+}
+.threeimgfarmers{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.farmersimg1{
+    position: relative;
+}
+.farmersimg1 img{
+    border: 2px solid #f7f7f7 ;
+    transition: .5s;
+}
+.texname{
+    padding: 25px 0;
+    width: 330px;
+    position: absolute;
+    top: 90%;
+    left: 20px;
+    background-color:#f7f7f7;
+    text-align: center;
+    line-height: 30px;
+}
+.texname h5{
+    color: #7fb401;
+}
+.texname p{
+    color:#858484;
+}
+.farmersimg1:hover .texname{
+    background-color: #7fb401;
+}
+.farmersimg1:hover .texname p,.farmersimg1:hover .texname h5,.farmersimg1:hover .texname h3{
+    color: white;
+}
+.positionimgdivhov{
+    position: relative;
+}
+.imghoverwihtecl{
+    height: 410px;
+    width: 370px;
+    position: absolute;
+    text-align: center;
+    padding-top: 40%;
+    top: 2px;
+    left: 2px;
+    background-color: rgba(255, 255, 255,0.9);
+    opacity: 0;
+    transform: scale(0);
+    transition: .5s;
+}
+.facebookmenu1,.twittermenu2,.googlemenu3{
+    padding: 13px 15px;
+    border: 1px solid#7fb401;
+    border-radius: 50%;
+    color: #7fb401;
+    margin-left: 10px;
+}
+.twittermenu2{
+    padding: 12px;
+}
+.googlemenu3{
+    padding: 13px 11px; 
+}
+.farmersimg1:hover .imghoverwihtecl{
+    transform: scale(1);
+    opacity: 1;
+}
+.farmersimg1:hover img{
+    border: 2px solid #7fb401 ;
+}
+
+.nine{
+    height: 700px;
+    background-image: url(oakville-img/1-4.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+}
+.nine:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.80;
+}
+.zindexdiv{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    padding: 70px 90px;
+}
+.nine .FEATURED{
+    color: white;
+}
+.disegnear3{
+    padding-top:20px ;
+    display: flex;
+    justify-content: space-between;
+}
+.greenlight{
+    height: 280px;
+    width:100%; 
+    background-color:#7fb401;
+    line-height: 30px;
+    padding: 40px 30px;
+    color: white;
+}
+.disegnearimg1{
+    height: 390px;
+    width: 370px;
+    padding: 20px 20px 0 20px;
+    background-color: #75a501;
+    position: relative;
+}
+.positionimgdisegne{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+.positionimgdisegne img{
+    border: 5px solid  #7fb401;
+    border-radius: 50%;
+}
+.textin2{
+    padding: 10px 0 0 50px;
+    width: 200px;
+    margin: auto;
+    color: white;
+    line-height: 30px;
+}
+.ten{
+    padding: 60px 90px 110px 90px;
+}
+.fourproductecl{
+    display: flex;
+    justify-content: space-between;
+}
+.prooneimgdv{
+    background-color: white;
+    height: 115px;
+    width: 270px;
+    border: 1px solid rgb(238, 236, 236);
+}
+.eleven{
+    background-color: #7fb401;
+    display: flex;
+    padding: 30px 90px;
+    justify-content: space-between;
+}
+.textinputmixdiv h1{
+    font-size: 37px;
+    color: white;
+}
+.textinputmixdiv p{
+    font-size: 18px;
+    color: white;
+}
+.textinputmixdiv input{
+    padding: 14px 5px;
+    font-size: 17px;
+    border: none;
+    outline:none;
+    color: #7fb401;
+}
+.textinputmixdiv{
+    position: relative;
+}
+.fa-user,.emaiiconposi{
+    position: absolute;
+    left: 87%;
+    top: 15px;
+    z-index: 1;
+    color: #7fb401;
+    font-size: 18px;
+}
+.textinputmixdiv button{
+    padding: 15px 45px;
+    font-size: 15px;
+    background-color: white;
+    font-weight: 600;
+    border: none;
+    color: #7fb401;
+    text-transform: uppercase; 
+    transition: .5s;  
+}
+.textinputmixdiv button:hover{
+    background: #363636;
+    color: #7fb401;
+}
+footer{
+    padding: 100px 90px;
+    background-color: #363636;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+.onetextdiv4{
+    width: 25%;
+}
+.footerimg1{
+    display: flex;
+}
+.Denouncing,.Expound{
+    color: #9c9c9c;
+    line-height: 25px;
+    font-size: 14px;
+    padding:20px 0 10px 0;
+}
+.THEME{
+    margin-top:20px ;
+    padding: 15px 40px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    transition: .4s;
+    background-color: #7fb401;
+}
+.THEME:hover{
+    background-color: white;
+    color: #7fb401;
+}
+.footerimg1{
+    margin-top: 50px;
+}
+.onetextdiv2{
+    padding-left: 20px;
+    width: 25%;
+}
+.onetextdiv2 h4{
+    transition: .4s;
+}
+.onetextdiv2 h4:hover{
+    color: #7fb401;
+}
+.footerimg1 h4{
+   margin: 0;
+}
+.footearimgintext1{
+    margin-left: 20px;
+    line-height: 20px;
+    color: #9c9c9c;
+    font-size: 14px;
+}
+.greenclock{
+    color: #7fb401;
+}
+.onetextdiv3{
+    padding-left: 20px;
+    width: 25%;
+}
+.CATEGOREIS,.TOUCH,.BUSINESS,.RECENT{
+    color: white;
+}
+.onetextdiv3 i{
+    padding-right:20px ;
+}
+.onetextdiv3 ul{
+    margin-top: 40px;
+}
+.onetextdiv3 li{
+    font-size: 14px;
+    padding: 10px 0;
+    list-style: none;
+    color: #9c9c9c;
+    border-bottom: 1px dashed #535353;
+}
+.onetextdiv{
+    width: 21%;
+}
+.colorchenge{
+    padding-right: 20px;
+    color: #949292;
+}
+.margindiv{
+    padding: 20px 0;
+    margin-left: 20px;
+    line-height: 30px;
+}
+.onetextdiv p{
+    font-size: 14px;
+    color: #949292;
+    transition: .5s;
+}
+.difrent:hover i , .difrent:hover{
+    color: #75a501;
+}
+.Monday{
+    line-height: 25px;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.Closed{
+    color: #7fb401;
+}
+.footerlast{
+    background: #2f2f2f;
+    padding: 25px 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.lastonediv p{
+    color: white;
+    font-size: 15px;
+   font-weight: 600;
+}
+.lasttwodiv i{
+    font-size:30px;
+    color: #949292;
+    padding-left: 22px;
+    transition: .4s;
+}
+.lasttwodiv i:hover{
+    color: #7fb401;
+}

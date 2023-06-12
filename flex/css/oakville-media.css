@@ -1,0 +1,259 @@
+@media (max-width: 500px)
+{
+    .fistulmenu{
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        /* transform: translateY(100px); */
+        background-color: #7fb401;
+        width: 100%;
+    }
+    .bd{
+        border-top: 1px solid #fff;
+        padding: 0px 0px 0 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .downmain{
+        border-left: 2px solid  #fff;
+        /* display: inline-block; */
+        padding: 20px 20px;
+    }
+    .extra{
+        padding: 15px 0 15px 25px;
+    }
+    .storeinul,.newsinul,.galleryinul,.pageinul{
+        left: 50%;
+    }
+    nav{
+        padding: 20px 0;
+        position: relative;
+    }
+    .iconnavmanu{
+        padding-left: 180px;
+    }
+    .menubars{
+        /* display: block; */
+        visibility: visible;
+        padding-top: 5px;
+        margin-left: 30px;
+    }
+    .menubars1{
+        /* display: block; */
+        visibility: hidden;
+        padding-top: 5px;
+        margin-left: 30px;
+    }
+    .spnjs {
+        position: relative;
+    }
+     .menubars1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .one{
+        background-size:cover;
+        background-position: center;
+    }
+    .Organic{
+        font-size: 30px;
+    }
+    .fristimgintext{
+        border: 1px solid rgb(185, 185, 185);
+        width: 95%;
+        padding: 20px 10px;
+    }
+    .Vegetables,.providing{
+        margin-top: 15px;
+    }
+    .two{
+        padding: 70px 10px;
+        flex-wrap: wrap;
+    }
+    .three{
+        padding: 0px 10px 70px 10px;
+    }
+    .main4img1,.main4img2{
+        padding-top: 0px;
+        flex-wrap: wrap;
+    }
+    .pro1{
+        width: 100%;
+        margin: 10px auto;
+    }
+    .upimg{
+        margin: auto;
+    }
+    .pro1:hover .hovericoninimg{
+        margin: auto 95px;
+    }
+    .fourintext{
+        padding: 90px 10px;
+    }
+    .five5{
+        padding: 0 10px; 
+    }
+    .joint1,.joint2{
+        flex-wrap: wrap;
+    }
+    .productsmain{
+        padding: 10px 20px;
+    }
+    .Duis{
+        line-height: 25px;
+    }
+    .six{
+        padding: 60px 10px;
+    }
+    .sixinmain1,.sixinmain2{
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+    .proimgone{
+        margin:10px auto;
+    }
+    .seven{
+        padding: 60px 10px;
+    }
+    .threeimgortext{
+        flex-wrap: wrap;
+    }
+    .OURLATEST1{
+        margin:10px auto;
+    }
+    .eight{
+        padding: 60px 10px 190px 10px;
+    }
+    .threeimgfarmers{
+        flex-wrap: wrap;
+    }
+    .farmersimg1{
+        margin: 0px auto;
+    }
+    .spesing{
+        margin: 150px auto;
+    }
+    .nine{
+        height: 600px;
+    }
+    .disegnear3{
+        padding-top:0px ;
+        flex-wrap: wrap;
+    }
+    .disegnearimg2{
+        display: none;
+    }
+    .ten{
+        padding: 60px 10px;
+    }
+    .fourproductecl{
+        flex-wrap: wrap;
+    }
+    .prooneimgdv{
+      margin:10px auto;
+    }
+    .eleven{
+        padding: 30px 10px;
+        flex-wrap: wrap;
+    }
+    .centertextdiv{
+        margin: auto;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .textinputmixdiv h1{
+        font-size: 30px;
+        padding: 10px 0;
+    }
+    .btn-new {
+      text-align: center;
+      padding: 0;
+      margin:20px auto auto;
+    }
+    footer{
+        padding: 70px 10px;
+        flex-direction: column;
+    }
+    .onetextdiv4{
+        width: 100%;
+        text-align: center;
+    }
+    .onetextdiv2,.onetextdiv3,.onetextdiv{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .onetextdiv{
+        padding-left: 20px;
+    }
+    .footerimg1{
+        margin-top: 30px;
+    }
+    .onetextdiv3 ul{
+        margin-top: 20px;
+    }
+    .footerlast{
+        padding: 25px 10px;
+        flex-wrap: wrap;
+    }
+    .lastonediv,.secondlastdiv{
+        margin: auto;
+        padding-top: 20px;
+    }
+
+}
+@media (max-width: 362px)
+{
+    .iconnavmanu{
+        padding-left: 50px;
+    }
+    .one{
+        height: 500px;
+    }
+    .fristimgintext{
+        padding: 30px 10px;    
+    }
+    .acth{
+         flex-wrap: wrap;  
+    }
+    .acth li{
+        margin: 7px;
+    }
+    .hovericoninimg{
+        right: 40px;
+        display: flex;
+        justify-content: center;
+    }
+     .disegnear3{
+        margin: auto;
+    }
+    .zindexdiv{
+        padding: 70px 10px;
+    }
+    .texname{
+        left: 5px;
+    }
+    .textinputmixdiv{
+        margin: auto;
+    }
+    .textinputmixdiv input{
+        margin-bottom: 10px;
+    }
+    .shoppyicon{
+        left: 280px;
+    }
+    .storeinul,.newsinul,.galleryinul,.pageinul{
+        background-color:white;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.13);
+        position: absolute;
+        top: 100%;
+        left: -10px;
+        display: none;
+        width: 100%;
+        z-index: 1;
+    }
+  
+   
+}

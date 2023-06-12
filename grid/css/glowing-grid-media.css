@@ -1,0 +1,189 @@
+@media (max-width:500px)
+{
+    .menu{
+        position: relative;
+    }
+    .submenu{
+        display: none;
+        position: absolute;
+        top: 100%;
+        background-color: white;
+        width: 250px;
+    }
+    .homeinul1,.homeinul2, .homeinul3, .blogul,.dropindrop6{
+     display: none;
+    
+    }
+  
+    .submenu>li{
+        display: block;
+    }
+    .mdicon{
+        opacity: 1;
+        font-size: 30px;
+        margin-left:20px ;
+    }
+
+    .glowing{
+        margin-left: -30px;
+    }
+    .menuicon i.mdsharch,.zero{
+        display: none;
+    }
+    .menubars {
+        visibility: visible;
+        margin-left: 20px;
+    }
+    .menubars1 {
+        margin-left: -25px;
+        margin-top: 5px;
+    }
+    header{
+        padding: 30px 0;
+    }
+    .bgimgintext{
+        margin: auto;
+        text-align: center;
+    }
+   
+    .cctsmix{
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
+    .proimgbox1{
+        width: 500px;
+    }
+    .protextbox1{
+        margin-top: 550px;
+     }
+     .productimg1,.productimg2{
+        left: 50px;
+    }
+    .two{
+        margin: auto;
+        padding: 0 20px;
+    }
+    .intowimg{
+        grid-template-columns: 1fr;
+    }
+    .glow-c{
+        margin: 0 0 40px 0;
+    }
+    .makeup{
+        margin-left: 0px;
+    }
+    .infourdiv{
+        padding: 50px 0;
+        grid-template-columns: 1fr ;
+    }
+    .frsp{
+        margin-top: 50px;
+    }
+    .phg{
+        margin-top: 20px;
+        grid-template-columns: 1fr ; 
+    }
+    .prker{
+        margin-top: 50px;
+    }
+    .empr{
+        grid-template-columns: 4fr;
+    }
+    .four{
+        padding: 0px 20px;
+    }
+    .pro67{
+        grid-template-rows: 1fr;
+        margin-top: 70px;
+    }
+    .productin6{
+        grid-template-columns:1fr;
+        padding-bottom: 10px;
+    }
+    .pro1{
+        margin: 0px 0 0 0px;
+        margin-top: 30px;
+    }
+    .productin7{
+        grid-template-columns:1fr; 
+        padding-top:10px ;
+    }
+    .pro1inimg1 img{
+        height:450px;
+    }
+    .pro1inimg2 img{
+        height:450px; 
+    }
+    .protextbox12{
+        margin-top: 460px;
+    }
+    .Discoverinimg{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .last5img{
+        margin-top: 100px;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+   
+     footer{
+        padding: 50px 20px;
+        background-color: #f8f8f8;
+    
+    }
+     .footerfirstbox{
+        grid-template-columns: 2fr ;
+    }
+    .kuig{
+        margin-top: 40px;
+    }
+    .footerlastbox{
+        grid-template-columns: 1fr;
+        padding-top: 60px;
+    }
+    .fsfp{
+        margin: 20px 0 ;
+        padding-left: 0;
+    }
+    .empowerimg{
+        height: 800px;
+    }
+   
+}
+@media (max-width:360px)
+{
+    .one{
+        background-size:cover;
+        background-position: center;
+    }
+    .bgimgintext{
+        width:330px ;
+    }
+    .proimgbox1{
+       width: 330px;
+    }
+    .productimg1,.productimg2{
+        left: 0px;
+    }
+    .protextbox1{
+        margin-top: 440px;
+     }
+     .empowerimg{
+        height: 500px;
+    }
+    .intextbtnsub{
+        top: 250px;
+    }
+    .Goodemails input{
+        padding: 12px 0px 12px 5px;
+        font-size: 15px;
+    }
+    .Subscribebtn{
+        padding: 14px 35px;
+        font-size: 15px;
+        left: 63%;
+    }
+      
+}
